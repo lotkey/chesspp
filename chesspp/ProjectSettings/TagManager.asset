@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BoardTilemap
+  - HighlightTilemap
+  - PieceTilemap
   layers:
   - Default
   - TransparentFX
@@ -11,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - BoardTilemap
+  - HighlightTilemap
+  - PieceTilemap
   - 
   - 
   - 
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BoardTilemap
+    uniqueID: 762021983
+    locked: 0
+  - name: HighlightTilemap
+    uniqueID: 657395967
+    locked: 0
+  - name: PieceTilemap
+    uniqueID: 229911341
     locked: 0
